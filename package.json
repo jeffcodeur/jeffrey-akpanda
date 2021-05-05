@@ -1,0 +1,13 @@
+{
+  "name": "cv-jeffrey-akpa-nda",
+  "version": "1.0.0",
+  "description": "Mon Cv & Portfolio",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jeffcodeur",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {}
+}

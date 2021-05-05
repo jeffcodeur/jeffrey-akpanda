@@ -1,0 +1,118 @@
+:root {
+    /* Colors */
+    --primary : #02B8DD;
+    --secondaryColor :#23374d;
+}
+/*General*/
+body{
+    font-family: 'Lato', sans-serif;
+}
+a {
+    color: inherit;
+}
+h1,h2,h3,h4{font-weight: bold;}
+section{padding: 45px 0 80px 0;}
+section .heading{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+section .heading h1{text-transform: uppercase;}
+.blue-bar{
+    width: 250px;
+    height: 5px;
+    background-color: #23374d;
+    margin: 20px auto;
+}
+/* Header */
+.navbar{
+    background-color: #23374d;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+/* About */
+#about{
+    padding-top: 100px;
+    background-color: #02B8DD;
+    color: #fff;
+}
+#about .heading h3{
+    color:#23374d;
+}
+.profil-picture{
+    margin: 0 auto;
+    text-align: center;
+}
+.profil-picture img{
+    width: 200px;
+    height: 200px;
+}
+.heading-btn{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    border:1px solid #fff;
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 18px 50px;
+    display: inline-block;
+    transition: .3s all;
+}
+.heading-btn:hover{
+    text-decoration: none;
+    background-color: #fff;
+    color: #02B8DD;
+}
+/*Skills*/
+#skills .heading h2{
+    color: #23374d;
+}
+#skills .progress
+{
+    height: 40px;
+    margin: 30px 20px;
+    background-color: #efefef;
+}
+#skills .progress-bar{
+    background-color:#02B8DD;
+}
+#skills h5{
+    /* color: var(--secondaryColor); */
+    color: #fff;
+    font-weight: bold;
+    /* text-shadow: 1px 1px 2px #fff; */
+}
+
+/*Education*/
+
+#education{
+    background-color: #02B8DD;
+}
+#education h3{color:var(--secondaryColor);}
+#education .heading h2{color:#fff}
+#education .blue-bar{background-color: #fff;}
+
+/*portofolio*/
+#portofolio .row a{
+    padding: 5px;
+}
+.project{
+   display: block;
+   height: 200px;
+   overflow: hidden;
+   margin: 10px 0px;
+}
+
+.project img {
+    /* width: 100%;
+    height: 100%; */
+}
+
+/*Footer*/
+footer{
+    padding: 20px 0 40px;
+    background-color:#23374d;
+}
