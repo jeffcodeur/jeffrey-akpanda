@@ -106,6 +106,9 @@ section .heading h1{text-transform: uppercase;}
    overflow: hidden;
    margin: 10px 0px;
 }
+.custom-proj-card {
+    height: 430px;
+}
 
 .project img {
     /* width: 100%;

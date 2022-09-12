@@ -1,0 +1,176 @@
+/*RESET CSS*/
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}td:not([align]),th:not([align]){text-align:left}
+/*GENERAL SELECTOR*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+h1{
+    font-family: 'Crete Round', serif;
+    font-size: 44px;
+    color:#444;
+}
+p{line-height: 1.4;}
+h4{
+    color: #444;
+    margin-bottom: 20px;
+    font-weight:bold;
+}
+ul{list-style: none;}
+a{
+    text-decoration: none;
+    color: #444;
+}
+.wrapper{
+    width: 950px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.orange{color:#FF7a00;}
+.clear{clear: both;}
+
+/*HEADER*/
+
+header{height: 120px;}
+header h1{
+    float: left;
+    margin-top: 32px;
+}
+.menu li{
+    display: inline-block;
+}
+.menu-link{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 20px;
+    float: left;
+}
+.menu{
+    float: right;
+    margin-top:50px;
+}
+
+/*MAIN IMAGE*/
+
+#main-image{
+    background: url(../img/main.jpg) center;
+    height: 520px;
+    text-align: center;
+    clear: both;
+}
+.main-image-text{
+    font-size: 55px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: normal;
+    padding: 150px 0 40px 0;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+.btn-1{
+    color: #fff;
+    background-color: #FF7A00;
+    padding: 10px 20px;
+    border-radius: 3px;
+    transition: .3s all;
+}
+.btn-1:hover{background-color: #02B8dd;}
+
+/*STEPS CSS PART*/
+#steps ul{margin: 80px 0;}
+.steps-boxes{
+    width: 300px;
+    float: left;
+    text-align: center;
+    padding-top: 140px;
+    margin-right: 10px;
+}
+#step-1{background: url(../img/steps-icon-1.png) no-repeat top center;}
+#step-2{background: url(../img/steps-icon-2.png) no-repeat top center;}
+#step-3{background: url(../img/steps-icon-3.png) no-repeat top center;}
+
+/*POSSIBILITIES PART CSS*/
+#possibilities{
+    background-color: #efefef;
+    padding: 60px 0;
+}
+#possibilities article{
+    width: 450px;
+    height: 270px;
+    border-radius: 10px;
+    float: left;
+}
+#article-1{background: url(../img/article-image-1.jpg) no-repeat center;margin-right: 20px;}
+#article-2{background: url(../img/article-image-2.jpg) no-repeat center;}
+.overlay{
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    padding: 20px 10px;
+    opacity: .95;
+    text-align: center;
+    border-radius: 10px 0 0 10px;
+}
+#possibilities h4{
+    border-bottom: 1px solid #444444;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+#possibilities p{
+    font-style: italic;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*CONTACT CSS PART*/
+
+#contact{
+    padding:60px 0px;
+    text-align:center;
+}
+#contact h4{
+    font-size: 24px;
+    width:400px;
+    text-transform: uppercase;
+    margin: 0 auto 20px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #02B8dd;
+}
+#contact-form{margin: 60px 0 20px 0;}
+#contact-form label{
+    font-weight: bold;
+    font-size: 20px;
+    color:#777;
+    margin-right: 10px;
+}#contact input[type=text]{
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+.btn-submit{
+    color: #fff;
+    background-color:#02B8dd;
+    font-weight: bold;
+    padding: 13px;
+    border-style: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s all;
+}
+.btn-submit:hover{background-color: #444;}
+
+/* FOOTER CSS PART */
+
+footer{
+    background-color: #02B8dd;
+    color:#fff;
+    text-align: center;
+    padding: 30px 0;
+}
+footer h1{color: #fff;}
